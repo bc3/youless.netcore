@@ -35,6 +35,7 @@ namespace youless.netcore
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }

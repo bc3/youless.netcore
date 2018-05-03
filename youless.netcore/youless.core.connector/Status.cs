@@ -62,5 +62,7 @@ namespace youless.netcore
         /// </summary>
         /// <value>The raw.</value>
         public int raw { get; set; }
+
+        public string timestamp { get; set; }
     }
 }

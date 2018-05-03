@@ -19,7 +19,14 @@ namespace youless.netcore
             var httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri($"http://{ipAddress}");
             var x = await httpClient.GetStringAsync("/a?f=j");
-            return JsonConvert.DeserializeObject<Status>(x);
+            var result = JsonConvert.DeserializeObject<Status>(x);
+            SetTimeStamp(result);
+            return result;
+        }
+
+        private void SetTimeStamp(Status x) 
+        {
+            x.timestamp = DateTime.Now.ToString("HH:mm:ss");
         }
 
     }
