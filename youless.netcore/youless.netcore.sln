@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youless.netcore", "youless.netcore\youless.netcore.csproj", "{A59DD546-1895-4B18-BA06-A0AAA87FB998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youless.core.connector", "youless.core.connector\youless.core.connector.csproj", "{CD793243-4429-4E35-8B27-AB37646B8078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59DD546-1895-4B18-BA06-A0AAA87FB998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59DD546-1895-4B18-BA06-A0AAA87FB998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59DD546-1895-4B18-BA06-A0AAA87FB998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59DD546-1895-4B18-BA06-A0AAA87FB998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD793243-4429-4E35-8B27-AB37646B8078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD793243-4429-4E35-8B27-AB37646B8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD793243-4429-4E35-8B27-AB37646B8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD793243-4429-4E35-8B27-AB37646B8078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
