@@ -1,5 +1,6 @@
 ﻿using System;
-namespace youless.netcore
+
+namespace youless.core.connector
 {
     public class Status
     {
